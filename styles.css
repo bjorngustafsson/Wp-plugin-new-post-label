@@ -1,0 +1,22 @@
+.new-post-label {
+	z-index: 9999;
+	position: absolute;
+	color: white;
+
+	border-bottom: 40px solid rgb(255, 119, 119);
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 120px;
+
+	margin-left: -30px;
+  	margin-top: 10px;
+
+	text-align: center;
+	font-size: 11px;
+  	line-height: 1.5;
+
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
